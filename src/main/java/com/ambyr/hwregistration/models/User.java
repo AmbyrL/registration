@@ -40,7 +40,7 @@ public class User {
     private String zip;
 
     @Column(name ="COUNTRY")
-    private String country;
+    private String country = "US";
 
     @Column(name = "REG_DATE")
     private String regDate;
