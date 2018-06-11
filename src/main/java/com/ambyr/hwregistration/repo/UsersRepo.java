@@ -6,6 +6,6 @@ import org.springframework.data.repository.Repository;
 import java.util.List;
 
 public interface UsersRepo extends Repository<User, Long> {
-    List<User> findAll();
+    List<User> findAllByOrderByIdDesc();
     void save(User user);
 }

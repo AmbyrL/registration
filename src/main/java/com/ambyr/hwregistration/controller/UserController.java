@@ -19,7 +19,7 @@ public class UserController {
     @GetMapping("/users")
     @CrossOrigin
     public List<User> getUsers() {
-        return usersRepo.findAll();
+        return usersRepo.findAllByOrderByIdDesc();
     }
 
     @PostMapping("/user")

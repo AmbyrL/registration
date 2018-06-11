@@ -34,7 +34,7 @@ public class User {
     private String city;
 
     @Column(name ="STATE")
-    private String state;
+    private String stateID;
 
     @Column(name ="ZIP")
     private String zip;
@@ -42,7 +42,7 @@ public class User {
     @Column(name ="COUNTRY")
     private String country;
 
-    @Column(name = "DATE")
-    private String date;
+    @Column(name = "REG_DATE")
+    private String regDate;
 
 }
